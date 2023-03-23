@@ -1,4 +1,5 @@
 import {api} from './client'
+import {default_produc_list} from './default_response'
 
 export const getProducts = async () => {
     try {
@@ -7,6 +8,6 @@ export const getProducts = async () => {
         return response.data
     } catch (error) {
         console.error(error)
-        return []
+        return default_produc_list
     }
 }
