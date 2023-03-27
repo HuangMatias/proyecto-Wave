@@ -2,6 +2,7 @@
 // import { useContext } from 'react'
 // import { AppContext } from '../../context/AppContext'
 // import { TYPES } from '../../reducers/actions/actions_shopping'
+import Footer from "../footer/Footer"
 const Homepage = () => {
   // const { state, dispatch } = useContext(AppContext);
 
@@ -33,7 +34,7 @@ const Homepage = () => {
 
       {/* Reemplazar con componente Fotos instagram/carrousel */}
       
-      {/* Reemplazar con componente Footer */}
+      {Footer}
     </div>
   )
 }
