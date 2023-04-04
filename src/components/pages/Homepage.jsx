@@ -34,7 +34,7 @@ const Homepage = () => {
 
       {/* Reemplazar con componente Fotos instagram/carrousel */}
       
-      {Footer}
+      <Footer />
     </div>
   )
 }
