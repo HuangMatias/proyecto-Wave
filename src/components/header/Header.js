@@ -11,9 +11,9 @@ const Header = () => {
       <div className ="logo"> 
         {<img src={Logo} alt="logo" />}
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa-solid fa-bars fa-xl"></i>
+          <i className="fa-solid fa-bars fa-xl"></i>
         </button>
 
       </div>
