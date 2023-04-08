@@ -5,7 +5,7 @@ import Homepage from './components/pages/Homepage';
 import { AppContext } from './context/AppContext';
 import {TYPES} from './reducers/actions/actions_shopping'
 
-function App() {
+const App = () => {
     const {dispatch} = useContext(AppContext)
     useEffect(() => {
 
