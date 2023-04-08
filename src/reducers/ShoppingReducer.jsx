@@ -8,7 +8,7 @@ export const shoppingInitialState = {
 
 };
 
-export funtion shoppingReducer(state, action) {
+export function shoppingReducer(state, action) {
     switch (action.type) {
         case TYPES.ADD_TO_CART: {
             const newItem = state.products.find(product => product.id === action.payload)
