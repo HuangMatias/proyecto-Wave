@@ -8,7 +8,7 @@ const PayshipsList = ({source}) => {
                 
                 <img src={img} alt={"img_"} key={"img_"} width="60" />
             </div>
-        ))
+        )) 
     )
 }
 export default PayshipsList;

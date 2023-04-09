@@ -2,7 +2,10 @@ import React from 'react';
 import segundoLogo from './logoImage/segundo-logo.jpg'
 import arroba from './logoImage/arroba.png'
 import ubicacion from './logoImage/ubicacion.png'
-import PayshipsList from './PayshipsList';
+import PayshipsList from './PayshipsList'
+import facebook from './logoImage/facebook.png'
+import instagram from './logoImage/instagram.png'
+import tiktok from './logoImage/tik-tok.png'
 
 
 const IMAGES = [
@@ -24,9 +27,9 @@ const Footer = () => {
     return (
        <footer className = 'text-white bg-secondary'>
         <div className = 'container-fluid'>
-            <div className = 'row p-5'>
+            <div className = 'row p-4'>
                 <div className = 'col-xs-12 col-md-6 col-lg-3'>
-                        <img src= {segundoLogo} alt='logo' className = 'h3' height={200}></img>
+                        <img src= {segundoLogo} alt='logo' className = 'rounded' height={200} ></img>
                 </div>
                 <div className = 'col-xs-12 col-md-6 col-lg-3'>
                         <p className = 'h5'>Medios de Pago</p>
@@ -37,19 +40,31 @@ const Footer = () => {
                 <div className = 'col-xs-12 col-md-6 col-lg-3'>
                         <p className = 'h5'>Contactanos</p>
                         <p>
-                            <img src={arroba} alt= 'arroba' width={30} /> contacto@waveclothes.com
+                            <img className = 'm-1' src={arroba} alt= 'arroba' key={"arroba"} width={30} /> contacto@waveclothes.com
                             <br></br>
-                            <br></br>
-                            <img src={ubicacion} alt='ubicacion' width={30} /> Buenos Aires, Argentina
+                            <img className = 'm-1' src={ubicacion} alt='ubicacion' key={"ubicacion"} width={30} /> Buenos Aires, Argentina
                         </p>
                 </div>
                 <div className = 'col-xs-12 col-md-6 col-lg-3'>
                         <p className = 'h5'>Redes Sociales</p>
+                        <ul className='list unstiled'>
+                            <li className ='d-flex gap-3'>
+                                    <img src={facebook} alt='facebook' key={"facebook"} width={30} />
+                                    <img src={instagram} alt='instagram' key={"instagram"} width={30} />
+                                    <img src={tiktok} alt='tik-tok' key={"tik-tok"} width={30} />
+                            </li>
+
+                        </ul>
                 </div>
             </div>
         </div>
+        <div className='container'>
+            <div className='row-fluid lead text-uppercase text-center'>
+                <h6>Copyright wave clothes | Tienda online oficial - 2023 Todos los Derechos Reservados.</h6>
+            </div>
 
-       </footer> 
+        </div>
+       </footer>
     )
 };
 export default Footer;
