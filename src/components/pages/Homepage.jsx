@@ -2,6 +2,8 @@
 // import { useContext } from 'react'
 // import { AppContext } from '../../context/AppContext'
 // import { TYPES } from '../../reducers/actions/actions_shopping'
+import Header from '../header/Header';
+
 import Footer from "../footer/Footer"
 const Homepage = () => {
   // const { state, dispatch } = useContext(AppContext);
@@ -24,7 +26,7 @@ const Homepage = () => {
 
   return (
     <div>
-      {/* Reemplazar con componente Navbar */}
+      <Header/>
 
       {/* Reemplazar con componente Hero */}
 
