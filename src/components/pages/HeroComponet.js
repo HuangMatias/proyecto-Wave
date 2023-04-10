@@ -15,4 +15,4 @@ import heroimg from './assets/imagenhero.webp'
   )
 }
 
-export default HeroComponet
+export default HeroComponet;
