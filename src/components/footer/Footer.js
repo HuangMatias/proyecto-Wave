@@ -6,6 +6,7 @@ import PayshipsList from './PayshipsList'
 import facebook from './logoImage/facebook.png'
 import instagram from './logoImage/instagram.png'
 import tiktok from './logoImage/tik-tok.png'
+import avion from './logoImage/avion.png'
 
 
 const IMAGES = [
@@ -25,11 +26,11 @@ const IMAGES = [
 
 const Footer = () => {
     return (
-       <footer className = 'text-white bg-secondary'>
+       <footer className = 'text-white bg-secondary pt-4'>
         <div className = 'container-fluid'>
             <div className = 'row p-4'>
                 <div className = 'col-xs-12 col-md-6 col-lg-3'>
-                        <img src= {segundoLogo} alt='logo' className = 'rounded' height={200} ></img>
+                       <a href='#'><img src= {segundoLogo} alt='logo' className = 'rounded' height={200} ></img></a> 
                 </div>
                 <div className = 'col-xs-12 col-md-6 col-lg-3'>
                         <p className = 'h5'>Medios de Pago</p>
@@ -49,12 +50,18 @@ const Footer = () => {
                         <p className = 'h5'>Redes Sociales</p>
                         <ul className='list unstiled'>
                             <li className ='d-flex gap-3'>
-                                    <img src={facebook} alt='facebook' key={"facebook"} width={30} />
-                                    <img src={instagram} alt='instagram' key={"instagram"} width={30} />
-                                    <img src={tiktok} alt='tik-tok' key={"tik-tok"} width={30} />
+                                <a href='https://es-la.facebook.com/' target={'_blank'}><img src={facebook} alt='facebook' width={30} /></a>
+                                <a href='https://www.instagram.com/' target={'_blank'}><img src={instagram} alt='instagram' width={30} /></a>
+                                <a href='https://www.tiktok.com/search?q=ropa&t=1681073909637' target={'_blank'}><img src={tiktok} alt='tik-tok'  width={30} /></a>       
                             </li>
-
                         </ul>
+                        <div className='mt-4 text-uppercase col-foot'> <span><strong>Noticias</strong></span>
+                       <div className='input-group'>
+                       <input type="text" className="col-auto border-box form-control" placeholder='Email'      name="email" label="Email"></input>
+                        <button className='btn btn-outline-dark' onClick={() => alert("Te informaremos de las ultimas novedades!")}><img src={avion} alt='icono-enviar' width={30} /> </button>
+                        </div> 
+                        </div>
+                        
                 </div>
             </div>
         </div>
