@@ -3,7 +3,7 @@
 // import { AppContext } from '../../context/AppContext'
 // import { TYPES } from '../../reducers/actions/actions_shopping'
 
-import HeroComponet from "../hero/HeroComponet";
+import Hero from "../hero/Hero";
 import Header from "../header/Header";
 import Footer from "../footer/Footer"
 
