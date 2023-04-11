@@ -2,7 +2,11 @@
 // import { useContext } from 'react'
 // import { AppContext } from '../../context/AppContext'
 // import { TYPES } from '../../reducers/actions/actions_shopping'
-import { HeroComponet } from "./HeroComponet"
+
+import HeroComponet from "../hero/HeroComponet";
+import Header from "../header/Header";
+import Footer from "../footer/Footer"
+
 const Homepage = () => {
   // const { state, dispatch } = useContext(AppContext);
 
@@ -24,7 +28,8 @@ const Homepage = () => {
 
   return (
     <div>
-      {/* Reemplazar con componente Navbar */}
+      <Header/>
+      <br></br>
 
       < HeroComponet />
 
@@ -33,8 +38,8 @@ const Homepage = () => {
       {/* Reemplazar con componente "Por que elegir nuestra ropa" */}
 
       {/* Reemplazar con componente Fotos instagram/carrousel */}
-      
-      {/* Reemplazar con componente Footer */}
+      <section style={{height: 100}}></section>
+      <Footer />
     </div>
   )
 }
