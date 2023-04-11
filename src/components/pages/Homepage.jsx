@@ -5,6 +5,7 @@
 import Header from '../header/Header';
 
 import Footer from "../footer/Footer"
+import LatestOffers from '../layouts/LatestOffers';
 const Homepage = () => {
   // const { state, dispatch } = useContext(AppContext);
 
@@ -31,7 +32,7 @@ const Homepage = () => {
 
       {/* Reemplazar con componente Hero */}
 
-      {/* Reemplazar con componente "Ultimas Ofertas" */}
+      <LatestOffers/>
 
       {/* Reemplazar con componente "Por que elegir nuestra ropa" */}
 
