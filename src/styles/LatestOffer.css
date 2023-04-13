@@ -1,0 +1,29 @@
+.tittle-last-offers {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.container-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+.tittle-last-offers {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+    font-size: 30px;
+}
+
+.tittle-last-offers h3 {
+    font-weight: 400;
+}
+
+.tittle-last-offers h3 span {
+    color: #348E91;
+}
