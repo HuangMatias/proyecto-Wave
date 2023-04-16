@@ -26,7 +26,6 @@ const Homepage = () => {
   return (
     <div>
       <Header/>
-      <br></br>
 
       {/* Reemplazar con componente Hero */}
 
@@ -35,7 +34,6 @@ const Homepage = () => {
       {/* Reemplazar con componente "Por que elegir nuestra ropa" */}
 
       {/* Reemplazar con componente Fotos instagram/carrousel */}
-      <section style={{height: 100}}></section>
       <Footer />
     </div>
   )
