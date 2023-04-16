@@ -1,5 +1,5 @@
 import React from 'react'
-// import Productscss from '../styles/Products.css'
+import Productscss from '../styles/Products.css'
 import ModalCard from './modal/ModalCard'
 import { useState } from 'react'
 

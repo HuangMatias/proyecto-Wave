@@ -9,7 +9,7 @@ const ContainerProducts = () => {
 
     const {state} = useContext(AppContext)
 
-        {JSON.stringify(state.products)}
+        // {JSON.stringify(state.products)}
         
         const productsfilter = state.products.filter((product) => product.id < 5)
     

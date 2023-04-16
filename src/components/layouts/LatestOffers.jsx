@@ -1,5 +1,5 @@
 import React from 'react'
-// import LatestOfferscss from '../../styles/LatestOffer.css'
+import LatestOfferscss from '../../styles/LatestOffer.css'
 import ContainerProducts from '../ContainerProducts'
 
 

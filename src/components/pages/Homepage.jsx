@@ -3,7 +3,6 @@
 // import { AppContext } from '../../context/AppContext'
 // import { TYPES } from '../../reducers/actions/actions_shopping'
 import Header from '../header/Header';
-
 import Footer from "../footer/Footer"
 import LatestOffers from '../layouts/LatestOffers';
 const Homepage = () => {
@@ -28,7 +27,6 @@ const Homepage = () => {
   return (
     <div>
       <Header/>
-      <br></br>
 
       {/* Reemplazar con componente Hero */}
 
@@ -37,7 +35,6 @@ const Homepage = () => {
       {/* Reemplazar con componente "Por que elegir nuestra ropa" */}
 
       {/* Reemplazar con componente Fotos instagram/carrousel */}
-      <section style={{height: 100}}></section>
       <Footer />
     </div>
   )
