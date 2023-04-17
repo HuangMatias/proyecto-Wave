@@ -1,9 +1,16 @@
+.container-last-offers{
+    margin: 80px 0px 100px 0px;
+}
+
 .tittle-last-offers {
     display: flex;
     justify-content: center;
     margin: 50px 0px 50px 0px;
-    font-size: 30px;
     color: #fff;
+}
+
+.tittle-last-offers h3 {
+    font-size: 35px;
 }
 
 .container-products {
