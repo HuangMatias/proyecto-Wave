@@ -3,8 +3,8 @@
 // import { AppContext } from '../../context/AppContext'
 // import { TYPES } from '../../reducers/actions/actions_shopping'
 import Header from '../header/Header';
-
-import Footer from "../footer/Footer"
+import Hero from '../hero/Hero';
+import Footer from '../footer/Footer'
 
 const Homepage = () => {
   // const { state, dispatch } = useContext(AppContext);
