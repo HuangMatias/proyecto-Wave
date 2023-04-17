@@ -31,7 +31,7 @@ const Homepage = () => {
       <Header/>
       <br></br>
 
-      < HeroComponet />
+      < Hero />
 
       {/* Reemplazar con componente "Ultimas Ofertas" */}
 
@@ -41,7 +41,7 @@ const Homepage = () => {
       <section style={{height: 100}}></section>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default Homepage
+export default Homepage;

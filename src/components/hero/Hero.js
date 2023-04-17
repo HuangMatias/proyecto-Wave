@@ -1,18 +1,18 @@
 
 
-import React from 'react'
-import heroimg from './assets/imagenhero.webp'
+import React from "react";
+import heroimg from "../../assets/imagenhero.jpg"
 
-  const HeroComponet = () => {
+  const Hero = () => {
   return (
     <div className='container mt-3'>
       <div className='row'>
         Wave Siempres con vos...
         <img className='img-fluid w-100' src={heroimg} alt='imagen hero' />
 
-        </div> 
-      HeroComponet</div>
+      </div> 
+    </div>
   );
 }
 
-export default HeroComponet;
+export default Hero;
