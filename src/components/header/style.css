@@ -13,6 +13,10 @@ header .logo img {
     width: 95px;
     margin-left: 50px;
 }
+.navbar-brand img{
+    width: 95px;
+    margin-left: 50px;
+}
 
 div .barra {
     display: flex;
@@ -47,21 +51,35 @@ a:hover {
     margin-right: 30px;
     position: relative;
     cursor: pointer;
+    max-width: fit-content;
 }
 
 .cart-badge {
-  background-color:crimson;
-  opacity: 0.8;
-  color: white;
-  position: absolute;
-  font-size: 0.7rem;
-  right: -0.5rem;
-  /* top: -0.2rem; */
-  border-radius: 50%;
-  width: 1.1rem;
-  height: 1.1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    background-color: crimson;
+    opacity: 0.8;
+    color: white;
+    position: absolute;
+    font-size: 0.7rem;
+    right: -0.5rem;
+    /* top: -0.2rem; */
+    border-radius: 50%;
+    width: 1.1rem;
+    height: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.nav-link{
+    font-weight: bold;
+}
+
+@media (max-width: 500px){
+    .nav-link{
+        padding: 16px 0;
+        font-size: 1.25rem;
+    }
+    .navbar-nav {
+        margin-top: 16px;
+    }
 }
