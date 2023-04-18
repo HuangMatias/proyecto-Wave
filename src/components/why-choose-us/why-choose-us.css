@@ -6,7 +6,18 @@
 
 }
 .title{
-    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+    color: #fff;
+}
+.title h3 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.title h3 span {
+    color: #348E91;
 }
 
 .container-section {
@@ -21,7 +32,7 @@
 .list-container {
     display: flex;
     color: white;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 30px;
     align-self: center;
     flex-direction: column;
@@ -38,4 +49,8 @@
 .image-container img {
     max-height: 500px;
     border-radius: 25px;
+}
+
+.list-container p span {
+    margin-left: 1rem;
 }

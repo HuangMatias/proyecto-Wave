@@ -6,14 +6,16 @@ import './why-choose-us.css'
 
 export const WhyChooseUs = () => {
     return (
-        <div className="container mt-3 container-component">
-            <h2 className='title'>POR QUÉ ELEGIR NUESTRA ROPA</h2>
+        <div className="container mt-3 mb-3 container-component">
+            <div className="title">
+            <h3>POR QUÉ ELEGIR <span>NUESTRA</span> ROPA</h3>
+            </div>
             <section className="container-section">
                 <div className="list-container">
-                        <span><FontAwesomeIcon icon={faCheck} style={{ color: 'green', fontSize:'40px' }} /> Manejamos la mejor tela del mercado</span>
-                        <span><FontAwesomeIcon icon={faCheck} style={{ color: 'green', fontSize:'40px' }} /> Precios accesibles</span>
-                        <span><FontAwesomeIcon icon={faCheck} style={{ color: 'green', fontSize:'40px' }} /> Envío de 1 a 2 días hábiles</span>
-                        <span><FontAwesomeIcon icon={faCheck} style={{ color: 'green', fontSize:'40px' }} /> Todo tipo de talles</span>
+                        <p><FontAwesomeIcon icon={faCheck} style={{ color: 'green', fontSize:'40px' }} /><span> Manejamos la mejor tela del mercado</span></p>
+                        <p><FontAwesomeIcon icon={faCheck} style={{ color: 'green', fontSize:'40px' }} /><span> Precios accesibles</span></p>
+                        <p><FontAwesomeIcon icon={faCheck} style={{ color: 'green', fontSize:'40px' }} /><span> Envío de 1 a 2 días hábiles</span></p>
+                        <p><FontAwesomeIcon icon={faCheck} style={{ color: 'green', fontSize:'40px' }} /><span> Todo tipo de talles</span></p>
                 </div>
                 <div className="image-container">
                     <img src="https://res.cloudinary.com/wave-project/image/upload/v1679446740/BUZO_CHEMISTRY_umjiit.webp" alt="Why choose us?" />
