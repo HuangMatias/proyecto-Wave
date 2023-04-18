@@ -1,0 +1,41 @@
+.container-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.title{
+    color: whitesmoke;
+}
+
+.container-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    width: 100%;
+}
+
+.list-container {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    align-self: center;
+    flex-direction: column;
+    flex-grow: 1;
+    row-gap: 2rem;
+}
+
+.image-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    max-height: 500px;
+    border-radius: 25px;
+}

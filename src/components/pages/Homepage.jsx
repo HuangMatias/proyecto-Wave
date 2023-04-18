@@ -5,6 +5,7 @@
 import Header from '../header/Header';
 import Hero from '../hero/Hero';
 import Footer from '../footer/Footer'
+import { WhyChooseUs } from '../why-choose-us/WhyChooseUs';
 
 const Homepage = () => {
   // const { state, dispatch } = useContext(AppContext);
@@ -33,7 +34,7 @@ const Homepage = () => {
 
       {/* Reemplazar con componente "Ultimas Ofertas" */}
 
-      {/* Reemplazar con componente "Por que elegir nuestra ropa" */}
+      <WhyChooseUs/>
 
       {/* Reemplazar con componente Fotos instagram/carrousel */}
       <Footer />
