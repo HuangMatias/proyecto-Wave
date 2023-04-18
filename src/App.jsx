@@ -1,5 +1,4 @@
 import { useContext, useEffect } from 'react';
-
 import { getProducts } from './api/products';
 import Homepage from './components/pages/Homepage';
 import { AppContext } from './context/AppContext';

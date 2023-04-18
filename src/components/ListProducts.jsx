@@ -3,7 +3,7 @@ import Productscss from '../styles/Products.css'
 import ModalCard from './modal/ModalCard'
 import { useState } from 'react'
 
-const ListProducts = ( { name , price , url } ) => {
+const ListProducts = ( { name , price , url , id } ) => {
 
     const [show, setShow] = useState(false);
 
@@ -29,6 +29,7 @@ const ListProducts = ( { name , price , url } ) => {
                 <ModalCard 
                     handleClose={handleClose}
                     show={show}
+                    id={id}
                 />
             </div>
         </div>
