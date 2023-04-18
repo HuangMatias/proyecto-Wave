@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 
@@ -11,11 +11,17 @@ import './style.css';
 const Header = () => {
     const { state } = useContext(AppContext);
     const { cart } = state;
-    const [showCart, setShowCart] = useState(false);
+    const [cartCounter, setCartCounter] = useState(0)
 
-    const handleShowCart = () => {
-        setShowCart(!showCart);
-    };
+    useEffect(() => {
+        const total = cart.reduce(function (sum, item) {
+            return sum + (item.quantity || 1);
+          }, 0);
+          setCartCounter(total)
+    }, [cart])
+    
+
+   
     return (
         <>
             <nav className='navbar navbar-expand-lg bg-body-tertiary'>
@@ -47,8 +53,8 @@ const Header = () => {
                                 </a>
                             </li>
                         </ul>
-                        <div className='carrito' onClick={handleShowCart}>
-                            <span className='cart-badge'>{cart.length}</span>
+                        <div className='carrito'>
+                            <span className='cart-badge'>{cartCounter}</span>
                             <FontAwesomeIcon icon={faCartShopping} />
                         </div>
                     </div>

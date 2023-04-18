@@ -3,14 +3,11 @@
 // import { AppContext } from '../../context/AppContext'
 // import { TYPES } from '../../reducers/actions/actions_shopping'
 import Header from '../header/Header';
-<<<<<<< HEAD
 import Footer from "../footer/Footer"
 import LatestOffers from '../layouts/LatestOffers';
-=======
 import Hero from '../hero/Hero';
-import Footer from '../footer/Footer'
+import { WhyChooseUs } from '../why-choose-us/WhyChooseUs';
 
->>>>>>> 8d2f9cb9e1f62da41bc070439702c78f128f94fe
 const Homepage = () => {
   // const { state, dispatch } = useContext(AppContext);
 
@@ -38,7 +35,7 @@ const Homepage = () => {
 
       <LatestOffers/>
 
-      {/* Reemplazar con componente "Por que elegir nuestra ropa" */}
+      <WhyChooseUs/>
 
       {/* Reemplazar con componente Fotos instagram/carrousel */}
       <Footer />
