@@ -3,7 +3,8 @@
 // import { AppContext } from '../../context/AppContext'
 // import { TYPES } from '../../reducers/actions/actions_shopping'
 import Header from '../header/Header';
-import Footer from "../footer/Footer"
+import Carrousel from '../carrousel/Carrousel';
+import Footer from "../footer/Footer";
 const Homepage = () => {
   // const { state, dispatch } = useContext(AppContext);
 
@@ -33,7 +34,8 @@ const Homepage = () => {
 
       {/* Reemplazar con componente "Por que elegir nuestra ropa" */}
 
-      {/* Reemplazar con componente Fotos instagram/carrousel */}
+      <Carrousel/>
+
       <Footer />
     </div>
   )
