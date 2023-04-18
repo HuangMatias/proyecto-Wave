@@ -5,6 +5,10 @@
 import Header from '../header/Header';
 import Carrousel from '../carrousel/Carrousel';
 import Footer from "../footer/Footer";
+import LatestOffers from '../layouts/LatestOffers';
+import Hero from '../hero/Hero';
+import { WhyChooseUs } from '../why-choose-us/WhyChooseUs';
+
 const Homepage = () => {
   // const { state, dispatch } = useContext(AppContext);
 
@@ -28,17 +32,17 @@ const Homepage = () => {
     <div>
       <Header/>
 
-      {/* Reemplazar con componente Hero */}
+      < Hero />
 
-      {/* Reemplazar con componente "Ultimas Ofertas" */}
+      <LatestOffers/>
 
-      {/* Reemplazar con componente "Por que elegir nuestra ropa" */}
+      <WhyChooseUs/>
 
       <Carrousel/>
 
       <Footer />
     </div>
-  )
+  );
 }
 
-export default Homepage
+export default Homepage;
