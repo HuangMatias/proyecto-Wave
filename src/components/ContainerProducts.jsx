@@ -1,7 +1,6 @@
 import React from 'react'
 import { useContext } from 'react'
 import { AppContext } from '../context/AppContext'
-import { default_produc_list } from '../api/default_response'
 import ListProducts from './ListProducts'
 
 
@@ -20,6 +19,7 @@ const ContainerProducts = () => {
             {
                 productsfilter.map(product => (
                     <ListProducts 
+                    key={product.id}
                     name={product.name}
                     price={product.price} 
                     url = {product.image_url}
