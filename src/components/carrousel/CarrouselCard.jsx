@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaArrowAltCircleLeft } from 'react-icons/fa'; 
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from 'react-icons/fa'; 
 
 const CarrouselCard = ({images}) => {
   const [indice, setIndice] = useState(0);
@@ -49,8 +49,8 @@ const CarrouselCard = ({images}) => {
                 <img src = {images[indice].url} alt='' className=' h-80 rounded-2xl' />
                 <p className='text-lg text-white self-star pt-2 font-bold'>{images[indice].title}</p>
             </div>
-            <FaArrowAltCircleLeft 
-                className='h-10 w-8 text-yellow-300 duration-300 cursor-pointer hover:scale-110 hover:text-yellow-100 rotate-180' 
+            <FaArrowAltCircleRight 
+                className='h-10 w-8 text-yellow-300 duration-300 cursor-pointer hover:scale-110 hover:text-yellow-100' 
                 onClick={next}
             />
         </div>

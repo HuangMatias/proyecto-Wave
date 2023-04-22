@@ -30,7 +30,7 @@ const Footer = () => {
         <div className = 'container-fluid'>
             <div className = 'row p-4'>
                 <div className = 'col-xs-12 col-md-6 col-lg-3'>
-                       <a href='#'><img src= {segundoLogo} alt='logo' className = 'rounded' height={200} ></img></a> 
+                       <a href='#'><img src= {segundoLogo} alt='logo' className = 'rounded img-fluid' style={{maxHeight:'200px'}} ></img></a> 
                 </div>
                 <div className = 'col-xs-12 col-md-6 col-lg-3'>
                         <p className = 'h5'>Medios de Pago</p>

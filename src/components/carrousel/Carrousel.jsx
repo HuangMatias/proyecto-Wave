@@ -1,5 +1,6 @@
 import React from "react";
 import CarrouselCard from "./CarrouselCard";
+import './carrusel-style.css'
 
 const Carrousel = () => {     
     const images = [
